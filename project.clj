@@ -7,6 +7,7 @@
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [ring-server "0.5.0"]
                  [reagent "1.1.1"]
+                 [org.mentat/jsxgraph.cljs "0.2.0"]
                  [reagent-utils "0.3.4"]
                  [cljsjs/react "17.0.2-0"]
                  [cljsjs/react-dom "17.0.2-0"]
