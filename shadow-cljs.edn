@@ -1,0 +1,7 @@
+{:lein         {:profile "+shadow-cljs"}
+ :builds       {:app {:target     :browser
+                      :output-dir "resources/public/js"
+                      :asset-path "/js"
+                      :modules    {:app {:init-fn jsxgraph-cljs-hello-world.core/init!}}}}
+ :dev-http     {3000 {:root    "resources/public"
+                      :handler jsxgraph-cljs-hello-world.handler/app}}}
